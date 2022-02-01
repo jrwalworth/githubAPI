@@ -7,13 +7,13 @@ function getUsername(element) {
 var cardsDiv = document.querySelector("#cards")
 function makeUserCard(data) {
     var res = `<div class="card">
-                    <div class="header"></div>
+                    <div class="header"><h3 class="name">${data.name}</h3></div>
                     <img id="profile-pic" src="${data.avatar_url}" alt="${data.login}">
                     <div class="info">
-                        <h3 class="name">${data.name}</h3>
+                        
                         <div class="location">
                             <img class="icon" id="mark" src="icons/map-marker.png" alt="Map Marker">
-                            <h2>${data.location}</h2>
+                            <h2 id="loc">${data.location}</h2>
                         </div>
                         <div class="details">
                             <p>Company: ${data.company}</p>
