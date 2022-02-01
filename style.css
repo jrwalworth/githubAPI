@@ -1,4 +1,103 @@
 * {
     margin:0;
     padding:0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    ;
+} 
+
+input {
+    height: 21px;
+}
+
+.head {
+    margin-bottom: 10px;
+}
+
+#main-head {
+    margin-bottom: 10px;
+}
+.details {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card {
+    margin-top: 20px;
+    width: 500px;
+    /* height: inherit; */
+    height: 300px;
+    padding: 20px;
+    border: 1px solid lightslategrey;
+    box-shadow: 2px 2px lightslategray;
+    border-radius: 5px;
+    
+}
+
+
+.header {
+    background-color: rgb(95, 172, 240);
+    /* border-radius: 5px; */
+    height: 9%;
+    margin-bottom: -40px;
+}
+
+h5 {
+    margin-bottom: 5px;
+}
+.info {
+    width: 300px;
+    padding-left: 25px;
+}
+.location {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: small;
+}
+.icon {
+    height: 15px;
+    width: 15px;
+}
+
+.follows {
+    /* margin: 5px; */
+}
+
+
+#mark {
+    width: 10px;
+    height: 15px;
+}
+
+#profile-pic {
+    display: fixed;
+    height: 80px;
+    width: 80px;
+    margin-left: 25px;
+    margin-top: 5px;
+    border-radius: 50%;
+}
+
+
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.follow {
+    font-weight: 300;
+    font-size:smaller;
+}
+
+.deets {
+    font-weight: 500;
+    font-size: small;
 }
