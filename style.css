@@ -9,7 +9,6 @@ body {
     display: flex;
     justify-content: center;
     padding-top: 50px;
-    ;
 } 
 
 input {
@@ -44,7 +43,7 @@ input {
     margin-top: 20px;
     width: 500px;
     /* height: inherit; */
-    height: 300px;
+    height: 350px;
     padding: 20px;
     border: 1px solid lightslategrey;
     box-shadow: 2px 2px lightslategray;
